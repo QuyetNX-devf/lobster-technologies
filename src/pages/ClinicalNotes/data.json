@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Constitutional",
+    "id": 1,
+    "condition": [
+      {
+        "name": "chronic pain"
+      },
+      {
+        "name": "Loss of appetite"
+      },
+      {
+        "name": "Increase in appetite"
+      },
+      {
+        "name": "chronic pain"
+      },
+      {
+        "name": "Loss of appetite"
+      },
+      {
+        "name": "Increase in appetite"
+      }
+    ]
+  },
+  {
+    "title": "Eyes",
+    "id": 2,
+    "condition": [
+      {
+        "name": "chronic pain"
+      }
+    ]
+  },
+  {
+    "title": "Ears, Nose, Mouth & Throat",
+    "id": 3,
+    "condition": [
+      {
+        "name": "chronic pain"
+      }
+    ]
+  },
+  {
+    "title": "Cardiovascular",
+    "id": 4,
+    "condition": [
+      {
+        "name": "chronic pain"
+      }
+    ]
+  },
+  {
+    "title": "Respiratory",
+    "id": 5,
+    "condition": [
+      {
+        "name": "chronic pain"
+      }
+    ]
+  },
+  {
+    "title": "Musculoskeletal",
+    "id": 6,
+    "condition": [
+      {
+        "name": "chronic pain"
+      }
+    ]
+  },
+  {
+    "title": "Gastrointestinal",
+    "id": 7,
+    "condition": [
+      {
+        "name": "chronic pain"
+      }
+    ]
+  },
+  {
+    "title": "Lorem sodje port 1",
+    "id": 8,
+    "condition": [
+      {
+        "name": "Lorem sodje 1"
+      }
+    ]
+  },
+  {
+    "title": "Lorem sodje noma 2",
+    "id": 9,
+    "condition": [
+      {
+        "name": "Lorem sodje 2"
+      }
+    ]
+  },
+  {
+    "title": "Lorem sodje herios 3",
+    "id": 10,
+    "condition": [
+      {
+        "name": "Lorem sodje 3"
+      }
+    ]
+  }
+]

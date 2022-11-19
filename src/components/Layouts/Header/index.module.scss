@@ -1,0 +1,73 @@
+.header{
+    padding: 0 10px;
+
+    .wrap-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        .left{
+            display: flex;
+            align-items: center;
+            height: 100%;
+            .menu{
+                margin-right: 15px;
+                height: 20px;
+            }
+            .title{
+                font-weight: bold;
+                color: #333;
+            }
+        }
+        .right{
+            display: flex;
+            .icon{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+                background: rgb(237, 237, 237);
+                margin-right: 10px;
+                color: #555;
+                &.notifica{
+                    position: relative;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        top: 5px;
+                        right: 5px;
+                        background: rgb(229, 26, 26);
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 50%;
+                    }
+                }
+            }   
+            .wrap-avatar{
+                display: flex;
+                align-items: center;
+                margin-left: 10px;
+                .avatar{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    position: relative;
+                    margin: 0 0px 0 10px;
+                    img{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.wrapper{
+    .docter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0 10px;
+        border-bottom: solid 1px #f0f0f0;
+        .avatar{
+            width: 70px;
+            height: 70px;
+            overflow: hidden;
+            border-radius: 50%;
+            position: relative;
+            margin-bottom: 10px;
+            img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .link-provider{
+            background: #333;
+            display: inline-block;
+            color: #fff;
+            font-weight: 300;
+            border-radius: 5px;
+            font-size: 0.7rem;
+            padding: 3px 10px;
+            margin-top: 7px;
+        }
+    }
+    .patientInformation{
+        padding: 10px;
+        .title{
+            font-weight: bold;
+        }
+        .listInfor{
+            .item{
+                display: flex;
+                justify-content: space-between;
+                border-bottom: solid 1px #f0f0f0;
+                padding: 10px 0;
+                p{
+                    font-size: 0.9rem !important;
+                }
+                .text-left{
+                    color: #979494;
+                }
+            }
+        }
+        .history{
+            display: block;
+            border-radius: 5px;
+            border: solid 1px #5e81cb;
+            text-align: center;
+            color: #5e81cb;
+            padding: 5px 0;
+            margin-top: 20px;
+        }
+    }
+}

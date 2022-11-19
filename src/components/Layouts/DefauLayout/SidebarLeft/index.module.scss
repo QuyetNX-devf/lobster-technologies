@@ -1,0 +1,103 @@
+.sidebar-left{
+    padding: 10px;
+    .intake-note{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        .title{
+            font-weight: 500;
+            font-size: 1.2rem;
+            color: #444;
+        }
+        .icons{
+            display: flex;
+            .icon{
+                display: flex;
+                margin-left: 7px;
+                align-items: center;
+                justify-content: center;
+                width: 23px;
+                height: 23px;
+                border-radius: 50%;
+                background: #ededed;
+                color: #444;
+            }
+        }
+    }
+    .preview{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        cursor: pointer;
+        background:#5b70c0;
+        border-radius: 5px;
+        // padding: 3px 0;
+        height: 35px;
+        .text{
+            padding-left: 5px;
+        }
+    }
+    .health-condition{
+        margin-top: 15px;
+        .tabs{
+            display: flex;
+            justify-content: space-around;
+            border-bottom: solid 1px #c1c1c1;
+            .tab{
+                cursor: pointer;
+                padding-bottom: 7px;
+                position: relative;
+                color: #c1c1c1;
+                &.active{
+                    font-weight: 500;
+                    color: #5b70c0;
+                    &::after{
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 2px;
+                        background: #5b70c0;
+                        content: "";
+                    }
+                }
+                &.activeIncomplete{
+                    color: #da4f49;
+                }
+            }
+        }
+        .wrap-list-condition{
+            .list-condition{
+                max-height: calc(100vh - 50px - 30px - 20px - 39px - 35px - 15px - 28px);
+                overflow-y: auto;
+                margin-top: 10px;
+                &::-webkit-scrollbar-track
+                {
+                    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.06);
+                    background-color: #F5F5F5;
+                }
+
+                &::-webkit-scrollbar
+                {
+                    width: 3px;
+                    background-color: #F5F5F5;
+                }
+
+                &::-webkit-scrollbar-thumb
+                {
+                    background-color: #9a9a9a;
+                    // border: 2px solid #555555;
+                }
+                .condition{
+                    padding: 10px;
+                    transition: all 0.3s;
+                    border-radius: 5px;
+                    &:hover{
+                        background: #f0f0f0;
+                    }
+                }
+            }
+        }
+    }
+}
